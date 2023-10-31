@@ -6,7 +6,7 @@ navbar:
     - text: "About me"
       href: about.html
     - icon: fa-envelope fa-lg
-      href: mailto:xf2270@cumc.columbia.edu
+      href: mailto:<xf2270@cumc.columbia.edu>
     - icon: fa-github fa-lg
       href: http://github.com/XiangxiongFeng/
 output:
