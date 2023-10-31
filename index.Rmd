@@ -1,5 +1,5 @@
 ---
-title: "My awesome website"
+title: "Welecome to my website!!"
 output: 
   html_document:
     toc: true
@@ -9,4 +9,4 @@ output:
 
 ### I have a webpage!
 
-And I can put all kinds of stuff on it!
+This is my first website and this is the landing page.
