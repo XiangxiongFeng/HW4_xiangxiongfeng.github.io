@@ -1,5 +1,10 @@
 ---
-title: "Holy cow!"
+title: "My awesome website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
 ---
 
 ### I have a webpage!
