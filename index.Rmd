@@ -24,7 +24,7 @@ My email: xf2270@cumc.columbia.edu
 
 ### About me
 
-[About me page](About.html)
+[About me page](Aboutme.html)
 
 ## other professional network
 
