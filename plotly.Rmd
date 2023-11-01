@@ -12,14 +12,8 @@ library(plotly)
 library(dplyr)
 ```
 
-```{r}
-data("instacart")
-```
 
 ```{r}
-data_df = 
-  instacart |>
-  select(reordered)
-  
+data("ny_noaa")
 ```
 
