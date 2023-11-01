@@ -9,9 +9,17 @@ output: html_document
 library(tidyverse)
 library(p8105.datasets)
 library(plotly)
+library(dplyr)
 ```
 
 ```{r}
+data("instacart")
+```
 
+```{r}
+data_df = 
+  instacart |>
+  select(reordered)
+  
 ```
 
