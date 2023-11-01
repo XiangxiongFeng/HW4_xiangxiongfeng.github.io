@@ -1,5 +1,5 @@
 ---
-title: "about"
+title: "about me"
 output: 
   html_document:
     toc: true
@@ -7,5 +7,7 @@ output:
     theme: cerulean
 ---
 
-### About this site
+### My academic and professional experience
 
+
+I got my undergraduate degree in University of California Davis.

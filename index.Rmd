@@ -10,3 +10,22 @@ output:
 ### I have a webpage!
 
 This is my first website and this is the landing page.
+
+
+## Basic information {.tabset}
+
+### My github link
+
+[link to my github page](https://github.com/XiangxiongFeng/)
+
+### My email
+
+My email: xf2270@cumc.columbia.edu
+
+### About me
+
+[About me page](About.html)
+
+
+##
+You can also click buttons on the navigation bar!
