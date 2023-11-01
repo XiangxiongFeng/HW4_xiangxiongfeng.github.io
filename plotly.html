@@ -281,6 +281,14 @@ $(document).ready(function () {
 
 
 <pre class="r"><code>data(&quot;ny_noaa&quot;)</code></pre>
+<pre class="r"><code>Noaa_df =
+  ny_noaa|&gt;
+  drop_na()|&gt;
+  filter(prcp &gt; 0)|&gt;
+  separate(date, into = c(&#39;year&#39;,&#39;month&#39;), sep = 4)|&gt;
+  mutate(
+    month = str_replace(month,&#39;\\-&#39;,&#39;&#39;))|&gt;
+  filter(year == 2000)</code></pre>
 
 
 
