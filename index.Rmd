@@ -4,7 +4,7 @@ output:
   html_document:
     toc: true
     toc_float: true
-    theme: cerulean
+    
 ---
 
 ### I have a webpage!
@@ -29,6 +29,13 @@ My email: xf2270@cumc.columbia.edu
 ## other professional network
 
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/)
+
+
+
+### plotly plots
+
+[here is the link!](dashborad.html)
+
 
 ##
 You can also click buttons on the navigation bar!
