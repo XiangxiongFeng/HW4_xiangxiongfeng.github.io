@@ -29,4 +29,11 @@ Noaa_df =
 
 ```
 
+```{r}
+Noaa_df|>
+  plot_ly(
+    x = ~month, y = ~prcp,
+    type = 'scatter', mode= 'markers', alpha = 0.5
+  )
+```
 
