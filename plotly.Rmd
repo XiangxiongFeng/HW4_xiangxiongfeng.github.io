@@ -50,3 +50,27 @@ data("ny_noaa")
 
 ```
 
+
+
+
+
+```{r}
+ ny_noaa|>
+  drop_na()|>
+  filter(prcp > 0)|>
+  separate(date, into = c('year','month'), sep = 4)|>
+  mutate(
+    month = str_replace(month,'\\-',''))|>
+  filter(year < 2000)|>
+  group_by(year)|>
+  plot_ly(
+    x = ~year, y = ~prcp,
+    type = 'box', mode= 'viridis'
+  )
+```
+
+
+
+
+
+
